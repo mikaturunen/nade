@@ -1,7 +1,7 @@
 {
   "name": "nade",
   "preferGlobal": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": "./index.js",
   "author": "Panu Horsmalahti <panu.horsmalahti@iki.fi>",
   "description": "A meta task runner for Node.js packages",
