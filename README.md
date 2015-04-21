@@ -1,7 +1,14 @@
 nade
 ====
 
-A meta task runner for Node.js microservices. Finds folders with package.json files from sub-directories and executes a command in each directory.
+A meta task runner for Node.js packages. Finds folders with package.json files from sub-directories and executes a command in each directory.
+
+Installation
+------------
+
+```
+npm install -g nade
+```
 
 Examples
 --------
