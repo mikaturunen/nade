@@ -1,0 +1,37 @@
+{
+  "name": "nade",
+  "preferGlobal": false,
+  "version": "1.0.0",
+  "author": "Panu Horsmalahti <panu.horsmalahti@iki.fi>",
+  "description": "A meta task runner for Node.js microservices",
+  "contributors": [
+    {
+      "name": "Panu Horsmalahti",
+      "email": "panu.horsmalahti@iki.fi"
+    }
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panuhorsmalahti/nade.git"
+  },
+  "keywords": [
+    "gulp",
+    "grunt",
+    "microservice",
+    "microservices",
+    "task runner"
+  ],
+  "dependencies": {
+    "babel": "5.1.11"
+  },
+  "analyze": true,
+  "devDependencies": {},
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "build": "babel index.es6.js -o index.js"
+  }
+}
