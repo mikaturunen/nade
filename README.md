@@ -23,8 +23,10 @@ Start all services
 nade npm start
 ```
 
-Building
+Development
 --------
+
+Fork and create a pull request. To build the ES5 JavaScript file, run:
 
 ```
 npm run-script build
